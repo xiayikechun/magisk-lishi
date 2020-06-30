@@ -9,6 +9,7 @@ https://www.mintimate.cn/2020/03/08/Magisk
 
 # 如何自己做源？
 Magisk的更新源，其实就是一段Json数据：
+```
 {
   "app": {
     "version": "",
@@ -30,6 +31,7 @@ Magisk的更新源，其实就是一段Json数据：
   	"Address":""
   }
 }
+```
 其中，对象app、magisk为必须。
 
 # 联系我
