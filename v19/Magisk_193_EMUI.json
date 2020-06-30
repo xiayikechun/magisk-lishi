@@ -1,0 +1,28 @@
+{
+  "app": {
+    "version": "7.4.0"
+    ,"versionCode": "253"
+    ,"link": "http://101.133.237.130/Magisk/Magisk_APP/MagiskManager-v7.4.0.apk"
+    ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.4.0/app/src/main/res/raw/changelog.md"
+  },
+  "uninstaller": {
+    "link": "https://github.com/topjohnwu/Magisk/releases/download/v20.1/Magisk-uninstaller-20191102.zip"
+  },
+  "magisk": {
+    "version": "19.3",
+    "versionCode": "19301",
+    "link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v19.3-EMUI.zip",
+    "note": "https://raw.githubusercontent.com/topjohnwu/magisk_files/6f94236b1407bd0c162647db75dfa2ac956163ca/notes.md",
+    "md5": "417a6c8ef673be9c23bb78c634ea5831"
+  },
+  "stub": {
+    "versionCode": "3",
+    "link": "https://raw.githubusercontent.com/topjohnwu/magisk_files/stub/stub-release.apk"
+  },
+    "message":{
+  	"Power By":"Mintimate"
+  	,"My Bilibili":"Mintimate"
+  	,"My Coolapk":"Mintimate"
+  	,"Blog":"https://www.mintimate.cn"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "app": {
+    "version": "6.0.0"
+    ,"versionCode": "147"
+    ,"link": "http://101.133.237.130/Magisk/Magisk_APP/MagiskManager-v6.0.0.apk"
+  },
+  "uninstaller": {
+    "link": "https://github.com/topjohnwu/Magisk/releases/download/v19.3/Magisk-uninstaller-20190604.zip"
+  },
+  "magisk": {
+    "version": "17.2"
+    ,"versionCode": "17200"
+    ,"link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v17.2.zip"
+    ,"md5": "a8b466bb888306cc6adbb8ab365d03c6"
+  },
+  "message":{
+  	"Power By":"Mintimate"
+  	,"My Bilibili":"Mintimate"
+  	,"My Coolapk":"Mintimate"
+  	,"Blog":"https://www.mintimate.cn"
+  }
+}
