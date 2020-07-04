@@ -11,7 +11,7 @@
   "magisk": {
     "version": "20.1",
     "versionCode": "20101",
-    "link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v20.1-EMUI.zip",
+    "link": "http://101.133.237.130:8080/magisk?method=download&id=4",
     "note": "https://raw.githubusercontent.com/topjohnwu/magisk_files/6f94236b1407bd0c162647db75dfa2ac956163ca/notes.md",
     "md5": "8f1c2214126e17ba28b741b1bb35ad6b"
   },

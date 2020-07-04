@@ -11,7 +11,7 @@
   "magisk": {
     "version": "20.0"
     ,"versionCode": "20000"
-    ,"link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v20.0.zip"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=2"
     ,"md5": "5cba7b8732949307d6973a70e449462b13f3909e"
   },
   "message":{

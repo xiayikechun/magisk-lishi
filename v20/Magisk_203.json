@@ -11,7 +11,7 @@
   "magisk": {
     "version": "20.3"
     ,"versionCode": "20300"
-    ,"link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v20.3.zip"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=6"
     ,"md5": "959e46971c2eb500b91a053b2f1c1a8c"
   },
   "message":{
