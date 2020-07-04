@@ -10,7 +10,7 @@
   "magisk": {
     "version": "20.4"
     ,"versionCode": "20400"
-    ,"link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v20.4.zip"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=1"
     ,"md5": "9503fc692e03d60cb8897ff2753c193f"
   },
   "message":{
