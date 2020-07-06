@@ -10,7 +10,7 @@
   "magisk": {
     "version": "17.2"
     ,"versionCode": "17200"
-    ,"link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v17.2.zip"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=1"
     ,"md5": "a8b466bb888306cc6adbb8ab365d03c6"
   },
   "message":{

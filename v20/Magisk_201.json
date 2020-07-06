@@ -11,7 +11,7 @@
   "magisk": {
     "version": "20.1"
     ,"versionCode": "20100"
-    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=3"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=6"
     ,"md5": "994679ea19d7980f5fd28748c4e8abdd"
   },
   "message":{

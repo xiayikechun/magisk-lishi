@@ -11,7 +11,7 @@
   "magisk": {
     "version": "18.1"
     ,"versionCode": "18100"
-    ,"link": "http://101.133.237.130/Magisk/Magisk_Installer/Magisk-v18.1.zip"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=2"
     ,"md5": "fd988114f753a4c530839a2b28f052c1"
   },
   "message":{
