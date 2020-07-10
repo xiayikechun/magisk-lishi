@@ -3,6 +3,7 @@
     "version": "7.5.1"
     ,"versionCode": "267"
     ,"link": "http://101.133.237.130/Magisk/Magisk_APP/MagiskManager-v7.5.1.apk"
+	,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.5.1/app/src/main/res/raw/changelog.md"
     },
   "uninstaller": {
     "link": "http://101.133.237.130/Magisk/Magisk_Uninstaller/Magisk-uninstaller-20200323（v20.4）.zip"
