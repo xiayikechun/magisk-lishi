@@ -2,7 +2,7 @@
   "app": {
     "version": "7.4.0"
     ,"versionCode": "253"
-    ,"link": "http://101.133.237.130/Magisk/Magisk_APP/MagiskManager-v7.4.0.apk"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=2"
     ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.4.0/app/src/main/res/raw/changelog.md"
   },
   "uninstaller": {
