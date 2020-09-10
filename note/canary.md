@@ -1,14 +1,11 @@
-## Magisk (6c8fe465) (20420)
-- Support NAND based Android installation on Nintendo Switch
-- Support Android 11 AVD (`emulator.sh`, development only)
-- Keep module disabled when a module is upgraded
-- Inherit app namespace before isolating namespace (if supported)
+## Magisk (11f254e5) (20424)
+- Fix SELinux rules from Android 8.0 to 10
 
-## Magisk Manager (eec19ba9) (293)
-- Fix dialog internal custom view being cut off
-- Fix settings fragment initial state obscured by toolbar
-- Fix Markdown rendering
-- Fix incorrect databinding setup in hide manager dialog
+## Magisk Manager (fbaf2bde) (297)
+- Fix several bugs in manager upgrade logic.
+It should now successfully upgrade under all circumstances after this build.
+If you ran into "cannot parse package" error, clear the app cache and try again.
+- Allow arbitrary package name and app label length for repackaging
 
 ## Mintimate's Blog (English)
 - 08.16 Add This.
