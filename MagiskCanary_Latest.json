@@ -1,17 +1,17 @@
 {
   "app": {
-    "version": "d6dbab53"
-    ,"versionCode": "301"
-    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=8"
+    "version": "8.0.0"
+    ,"versionCode": "302"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=9"
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/canary.md"
     },
   "uninstaller": {
     "link": "http://101.133.237.130/Magisk/Magisk_Uninstaller/Magisk-uninstaller-20200323（v20.4）.zip"
   },
   "magisk": {
-    "version": "d6dbab53"
-    ,"versionCode": "20427"
-    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=installer&id=15"
+    "version": "21.0"
+    ,"versionCode": "21000"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=installer&id=16"
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/canary.md"
     ,"md5": "f0be5219b4c393ab5edad935fed2b5d2"
   },
