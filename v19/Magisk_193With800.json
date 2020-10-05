@@ -1,0 +1,23 @@
+{
+    "app": {
+      "version": "8.0.0"
+      ,"versionCode": "302"
+      ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=9"
+      ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/stable.md"
+      },
+  "uninstaller": {
+    "link": "https://github.com/topjohnwu/Magisk/releases/download/v19.3/Magisk-uninstaller-20190604.zip"
+  },
+  "magisk": {
+    "version": "19.3"
+    ,"versionCode": "19300"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=3"
+    ,"md5": "fd988114f753a4c530839a2b28f052c1"
+  },
+  "message":{
+  	"Power By":"Mintimate"
+  	,"My Bilibili":"Mintimate"
+  	,"My Coolapk":"Mintimate"
+  	,"Blog":"https://www.mintimate.cn"
+  }
+}
