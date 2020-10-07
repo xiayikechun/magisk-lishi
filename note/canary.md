@@ -1,3 +1,9 @@
+## v8.0.1
+- Fix `vbmeta.img` patching for Samsung `AP.tar` files. This fixes bootloops on devices like Galaxy S10 after flashing updated AP files.
+- Properly truncate existing files before writing to prevent corrupted files
+- Prevent a possible UI loop when device ran into very low memory
+- Switch to use JSDelivr CDN for several files
+
 ## Magisk v21.0
 Long time no see! v21.0 is the largest release in Magisk’s history. It comes with full Android 11 support (tons of stuff had to be rewritten from scratch!), and a completely redesigned Magisk Manager. These are the reasons why this particular public release took me over half a year to wrap up.
 
