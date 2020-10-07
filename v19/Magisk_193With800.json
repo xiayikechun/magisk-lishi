@@ -1,8 +1,8 @@
 {
     "app": {
-      "version": "8.0.0"
-      ,"versionCode": "302"
-      ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=9"
+      "version": "8.0.1"
+      ,"versionCode": "304"
+      ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=10"
       ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/stable.md"
       },
   "uninstaller": {
