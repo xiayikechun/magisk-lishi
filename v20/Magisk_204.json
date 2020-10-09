@@ -1,0 +1,23 @@
+{
+    "app": {
+      "version": "7.5.1"
+      ,"versionCode": "267"
+      ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=3"
+      ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.5.1/app/src/main/res/raw/changelog.md"
+    },
+  "uninstaller": {
+    "link": "https://github.com/topjohnwu/Magisk/releases/download/v19.3/Magisk-uninstaller-20190604.zip"
+  },
+  "magisk": {
+    "version": "20.4"
+    ,"versionCode": "20400"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&id=10"
+    ,"md5": "959e46971c2eb500b91a053b2f1c1a8c"
+  },
+  "message":{
+  	"Power By":"Mintimate"
+  	,"My Bilibili":"Mintimate"
+  	,"My Coolapk":"Mintimate"
+  	,"Blog":"https://www.mintimate.cn"
+  }
+}
