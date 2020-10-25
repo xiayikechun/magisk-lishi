@@ -15,13 +15,13 @@
 - Support patching modern Samsung AP.tar
 
 ## Mintimate's Blog (English)
-- 10.07 Update This.
+- 10.25 Update This.
 - Offical Web:https://www.mintimate.cn
 - Donate: https://www.mintimate.cn/about
 - Offical QQ Group:1051948568
 
 ## Mintimate's Blog (中文)
-- 最后更新时间:10.07
+- 最后更新时间:10.25
 - 如果有问题:https://www.mintimate.cn
 - 如果先捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568
