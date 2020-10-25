@@ -1,9 +1,9 @@
 {
   "app": {
-    "version": "8.0.1"
-    ,"versionCode": "304"
-    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=10"
-	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/stable.md"
+    "version": "8.0.2"
+    ,"versionCode": "307"
+    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=11"
+	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager.md"
     },
   "uninstaller": {
     "link": "http://101.133.237.130/Magisk/Magisk_Uninstaller/Magisk-uninstaller-20200323（v20.4）.zip"
@@ -12,7 +12,7 @@
     "version": "20.4"
     ,"versionCode": "20400"
     ,"link": "http://101.133.237.130:8080/magisk?method=download&id=10"
-	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/stable.md"
+	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_stable.md"
     ,"md5": "9503fc692e03d60cb8897ff2753c193f"
   },
   "stub": {

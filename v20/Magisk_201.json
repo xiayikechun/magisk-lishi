@@ -14,6 +14,10 @@
     ,"link": "http://101.133.237.130:8080/magisk?method=download&id=6"
     ,"md5": "994679ea19d7980f5fd28748c4e8abdd"
   },
+  "stub": {
+    "versionCode": "7",
+    "link": "http://101.133.237.130:8080/magisk?method=download&type=stub&id=2"
+  },
   "message":{
   	"Power By":"Mintimate"
   	,"My Bilibili":"Mintimate"
