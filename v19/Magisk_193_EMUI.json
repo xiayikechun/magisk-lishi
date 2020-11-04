@@ -2,7 +2,7 @@
   "app": {
     "version": "7.4.0"
     ,"versionCode": "253"
-    ,"link": "http://101.133.237.130:8080/magisk?method=download&type=app&id=3"
+    ,"link": "http://150.158.155.98:8080/fileHost/download/17"
     ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.4.0/app/src/main/res/raw/changelog.md"
   },
   "uninstaller": {
@@ -11,7 +11,7 @@
   "magisk": {
     "version": "19.3",
     "versionCode": "19301",
-    "link": "http://101.133.237.130:8080/magisk?method=download&id=4",
+    "link": "http://150.158.155.98:8080/fileHost/download/28",
     "note": "https://raw.githubusercontent.com/topjohnwu/magisk_files/6f94236b1407bd0c162647db75dfa2ac956163ca/notes.md",
     "md5": "417a6c8ef673be9c23bb78c634ea5831"
   },
