@@ -9,11 +9,11 @@
     "link": "http://101.133.237.130/Magisk/Magisk_Uninstaller/Magisk-uninstaller-20200323（v20.4）.zip"
   },
   "magisk": {
-    "version": "20.4"
-    ,"versionCode": "20400"
+    "version": "21.0"
+    ,"versionCode": "21000"
     ,"link": "http://150.158.155.98:8080/fileHost/download/41"
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/stable.md"
-    ,"md5": "9503fc692e03d60cb8897ff2753c193f"
+    ,"md5": "f0be5219b4c393ab5edad935fed2b5d2"
   },
   "stub": {
     "versionCode": "11",
