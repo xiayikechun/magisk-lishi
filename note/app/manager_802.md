@@ -1,8 +1,6 @@
-## v8.0.3
-- Switch to the new Magisk Module Repo setup in preparation to allow 3rd party repos
-- Add tapjacking protection on Superuser request dialog
-- Stability changes and bug fixes
-
+## v8.0.2
+- Fix an issue with requesting permission on devices older than Android 10
+- Make more files download through CDN
 
 ## Mintimate's Blog (English)
 - 11.13 Update This.

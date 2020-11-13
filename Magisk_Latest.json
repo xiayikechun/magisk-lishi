@@ -1,8 +1,8 @@
 {
   "app": {
-    "version": "8.0.2"
-    ,"versionCode": "307"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/25"
+    "version": "8.0.3"
+    ,"versionCode": "314"
+    ,"link": "http://150.158.155.98:8080/fileHost/download/76"
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager.md"
     },
   "uninstaller": {
@@ -16,8 +16,8 @@
     ,"md5": "9503fc692e03d60cb8897ff2753c193f"
   },
   "stub": {
-    "versionCode": "11",
-    "link": "http://150.158.155.98:8080/fileHost/download/44"
+    "versionCode": "14",
+    "link": "http://150.158.155.98:8080/fileHost/download/78"
   },
   "message":{
   	"Power By":"Mintimate"

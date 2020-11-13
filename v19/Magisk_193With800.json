@@ -1,8 +1,8 @@
 {
     "app": {
-      "version": "8.0.2"
-      ,"versionCode": "307"
-      ,"link": "http://150.158.155.98:8080/fileHost/download/25"
+      "version": "8.0.3"
+      ,"versionCode": "314"
+      ,"link": "http://150.158.155.98:8080/fileHost/download/76"
       ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager.md"
       },
   "uninstaller": {
@@ -14,6 +14,10 @@
     ,"link": "http://150.158.155.98:8080/fileHost/download/29"
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_1930.md"
     ,"md5": "fd988114f753a4c530839a2b28f052c1"
+  },
+  "stub": {
+    "versionCode": "14",
+    "link": "http://150.158.155.98:8080/fileHost/download/78"
   },
   "message":{
   	"Power By":"Mintimate"
