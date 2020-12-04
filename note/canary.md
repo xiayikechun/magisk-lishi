@@ -33,8 +33,8 @@ To the end user, not much has changed other than the fact that Magisk Manager ha
 - 微信公众号:MintimateBlog
 
 ## 统计
-- 9月份，本源累计被调取9063次
-- 9月份，服务器累计消耗流量52G
+- 11月份，本源累计被调取10986次
+- 11月份，服务器累计消耗流量45G
 
 ## 黑名单
 - QQ用户：397105900 在QQ群内恶意对线，态度蛮狠；望大家小心。

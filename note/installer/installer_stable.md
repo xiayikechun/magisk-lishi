@@ -22,14 +22,14 @@
 - Offical QQ Group:1051948568
 
 ## Mintimate's Blog (中文)
-- 最后更新时间:10.25
+- 最后更新时间:12.01
 - 如果有问题:https://www.mintimate.cn
-- 如果先捐赠:https://www.mintimate.cn/about
+- 如果想捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568
 
 ## 统计
-- 9月份，本源累计被调取9063次
-- 9月份，服务器累计消耗流量52G
+- 11月份，本源累计被调取10986次
+- 11月份，服务器累计消耗流量45G
 
 ## 黑名单
 - QQ用户：397105900 在QQ群内恶意对线，态度蛮狠；望大家小心。
