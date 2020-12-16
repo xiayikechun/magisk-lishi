@@ -2,7 +2,7 @@
     "app": {
       "version": "8.0.3"
       ,"versionCode": "314"
-      ,"link": "http://150.158.155.98:8080/fileHost/download/76"
+      ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0NDk3NDAxNjExODc4NQ=="
       ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager_803.md"
       },
   "uninstaller": {
@@ -11,13 +11,13 @@
   "magisk": {
     "version": "21.1"
     ,"versionCode": "21100"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/77"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0Njc0MDI0MTcyNzQ5MA=="
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_211.md"
     ,"md5": "53f415c52c1e8b925ca1cf22814ef101"
   },
   "stub": {
     "versionCode": "14",
-    "link": "http://150.158.155.98:8080/fileHost/download/78"
+    "link": "http://150.158.155.98/fileHost/download/MTMzOTA0ODI5MzkwODM5ODA4Mg=="
   },
   "message":{
   	"Power By":"Mintimate"

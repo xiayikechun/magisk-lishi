@@ -2,7 +2,7 @@
   "app": {
     "version": "8.0.1"
     ,"versionCode": "304"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/24"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0MzkyOTQzNzI5MDQ5OA=="
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/stable.md"
     },
   "uninstaller": {
@@ -11,13 +11,13 @@
   "magisk": {
     "version": "21.0"
     ,"versionCode": "21000"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/41"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0NjY5MTQ4Mjk0MzQ5MA=="
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/stable.md"
     ,"md5": "f0be5219b4c393ab5edad935fed2b5d2"
   },
   "stub": {
     "versionCode": "11",
-    "link": "http://150.158.155.98:8080/fileHost/download/44"
+    "link": "http://150.158.155.98/fileHost/download/MTMzOTA0ODI2Mjg5MTUyMDAwMg=="
   },
   "message":{
   	"Power By":"Mintimate"

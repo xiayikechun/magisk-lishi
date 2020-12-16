@@ -2,7 +2,7 @@
   "app": {
     "version": "eec19ba9"
     ,"versionCode": "293"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/19"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0Mzc2NjIxNTk1MDMzNw=="
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/canary_20420.md"
     },
   "uninstaller": {
@@ -11,7 +11,7 @@
   "magisk": {
     "version": "6c8fe465"
     ,"versionCode": "20420"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/36"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0NjcwNzkyODgwOTQ3Mw=="
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/canary.md"
     ,"md5": "85984518d5cd413b118132818f999b0d"
   },
