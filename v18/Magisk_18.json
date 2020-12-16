@@ -2,7 +2,7 @@
   "app": {
     "version": "7.4.0"
     ,"versionCode": "253"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/17"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0MzcwMTMzNDI2MTc2Mg=="
     ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.4.0/app/src/main/res/raw/changelog.md"
   },
   "uninstaller": {
@@ -11,7 +11,7 @@
   "magisk": {
     "version": "18.1"
     ,"versionCode": "18100"
-    ,"link": "http://150.158.155.98:8080/fileHost/download/27"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0NjcwMDE2NTE1Mjc2OQ=="
     ,"md5": "fd988114f753a4c530839a2b28f052c1"
   },
   "message":{
