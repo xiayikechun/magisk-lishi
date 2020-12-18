@@ -1,0 +1,28 @@
+{
+    "app": {
+      "version": "8.0.3"
+      ,"versionCode": "314"
+      ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0NDk3NDAxNjExODc4NQ=="
+      ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager_803.md"
+      },
+  "uninstaller": {
+    "link": "http://101.133.237.130/Magisk/Magisk_Uninstaller/Magisk-uninstaller-20200323（v20.4）.zip"
+  },
+  "magisk": {
+    "version": "a848f10b"
+    ,"versionCode": "21101"
+    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTkzOTM0NTU5MDcxMDI3NA=="
+    ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_211.md"
+    ,"md5": "51583e8abb774e40a2af96e2a539530d"
+  },
+  "stub": {
+    "versionCode": "14",
+    "link": "http://150.158.155.98/fileHost/download/MTMzOTA0ODI5MzkwODM5ODA4Mg=="
+  },
+  "message":{
+  	"Power By":"Mintimate"
+  	,"My Bilibili":"Mintimate"
+  	,"My Coolapk":"Mintimate"
+  	,"Blog":"https://www.mintimate.cn"
+  }
+}
