@@ -6,7 +6,7 @@
       ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.5.1/app/src/main/res/raw/changelog.md"
     },
   "uninstaller": {
-    "link": "https://github.com/topjohnwu/Magisk/releases/download/v19.3/Magisk-uninstaller-20190604.zip"
+    "link": "http://150.158.155.98/fileHost/download/MTM0MDMwNDU3MDI0ODY1NDg1MA=="
   },
   "magisk": {
     "version": "20.4"
