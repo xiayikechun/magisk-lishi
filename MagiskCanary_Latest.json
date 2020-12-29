@@ -1,23 +1,23 @@
 {
     "app": {
-      "version": "8.0.3"
-      ,"versionCode": "314"
-      ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0NDk3NDAxNjExODc4NQ=="
+      "version": "8.0.4"
+      ,"versionCode": "4768"
+      ,"link": "http://150.158.155.98/fileHost/download/MTM0Mzg5ODc0MDIzODMxOTYxOA=="
       ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager.md"
       },
   "uninstaller": {
     "link": "http://150.158.155.98/fileHost/download/MTM0MDMwMzc2MTkwOTgwNTA1OA=="
   },
   "magisk": {
-    "version": "21.1"
-    ,"versionCode": "21100"
-    ,"link": "http://150.158.155.98/fileHost/download/MTMzOTA0Njc0MDI0MTcyNzQ5MA=="
+    "version": "21.2"
+    ,"versionCode": "21200"
+    ,"link": "http://150.158.155.98/fileHost/download/MTM0Mzg5ODg3OTc2NjAzNjQ4MQ=="
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_canary.md"
-    ,"md5": "53f415c52c1e8b925ca1cf22814ef101"
+    ,"md5": "165b48cbd6fb2507bf74c820cccb9781"
   },
   "stub": {
-    "versionCode": "14",
-    "link": "http://150.158.155.98/fileHost/download/MTMzOTA0ODI5MzkwODM5ODA4Mg=="
+    "versionCode": "15",
+    "link": "http://150.158.155.98/fileHost/download/MTM0Mzg5ODY2NDkxNzAwODM4NQ=="
   },
   "message":{
   	"Power By":"Mintimate"

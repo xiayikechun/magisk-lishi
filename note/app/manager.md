@@ -1,17 +1,23 @@
+## v8.0.4
+
+- A lot of stability changes and minor bug fixes
+- Collect device properties, app logcat, and Magisk logs when saving logs in the logs menu
+
 ## v8.0.3
+
 - Switch to the new Magisk Module Repo setup in preparation to allow 3rd party repos
 - Add tapjacking protection on Superuser request dialog
 - Stability changes and bug fixes
 
 
 ## Mintimate's Blog (English)
-- 11.13 Update This.
+- 12.29 Update This.
 - Offical Web:https://www.mintimate.cn
 - Donate: https://www.mintimate.cn/about
 - Offical QQ Group:1051948568
 
 ## Mintimate's Blog (中文)
-- 最后更新时间:11.13
+- 最后更新时间:12.29
 - 如果有问题:https://www.mintimate.cn
 - 如果先捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568

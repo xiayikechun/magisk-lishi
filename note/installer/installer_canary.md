@@ -1,3 +1,6 @@
+## 2020.12.28 Magisk v21.2
+- v21.2 is a maintenance update, mostly addressing bugs, and expanding device compatibility. 
+
 ## v21.1
 - [MagiskBoot] Support boot header v3 (Pixel 5 and 4a 5G)
 - [MagiskBoot] Distinguish lz4_lg and lz4_legacy (Pixel 5 and 4a 5G)
@@ -14,13 +17,13 @@
 
 
 ## Mintimate's Blog (English)
-- 11.14 Update This.
+- 12.29 Update This.
 - Offical Web:https://www.mintimate.cn
 - Donate: https://www.mintimate.cn/about
 - Offical QQ Group:1051948568
 
 ## Mintimate's Blog (中文)
-- 最后更新时间:11.14
+- 最后更新时间:12.29
 - 如果有问题:https://www.mintimate.cn
 - 如果想捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568
