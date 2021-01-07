@@ -8,11 +8,10 @@
     "link": "https://github.com/topjohnwu/Magisk/releases/download/v19.3/Magisk-uninstaller-20190604.zip"
   },
   "magisk": {
-    "version": "21.2"
-    ,"versionCode": "21200"
-    ,"link": "http://129.211.190.168/fileHost/download/MTM0Mzg5ODg3OTc2NjAzNjQ4MQ=="
-    ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_canary.md"
-    ,"md5": "165b48cbd6fb2507bf74c820cccb9781"
+    "version": "19.3"
+    ,"versionCode": "19300"
+    ,"link": "http://129.211.190.168/fileHost/download/MTMzOTA0Njg5ODY2MDU4OTU2OQ=="
+    ,"md5": "fd988114f753a4c530839a2b28f052c1"
   },
   "message":{
   	"Power By":"Mintimate"
