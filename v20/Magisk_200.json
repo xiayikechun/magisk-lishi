@@ -2,7 +2,7 @@
   "app": {
     "version": "7.4.0"
     ,"versionCode": "253"
-    ,"link": "http://129.211.190.168/fileHost/download/MTMzOTA0MzcwMTMzNDI2MTc2Mg=="
+    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0MzcwMTMzNDI2MTc2Mg=="
     ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.4.0/app/src/main/res/raw/changelog.md"
   },
   "uninstaller": {
@@ -11,12 +11,12 @@
   "magisk": {
     "version": "20.0"
     ,"versionCode": "20000"
-    ,"link": "http://129.211.190.168/fileHost/download/MTMzOTA0NjcyMTAyMzQyNjU2MQ=="
+    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0NjcyMTAyMzQyNjU2MQ=="
     ,"md5": "5cba7b8732949307d6973a70e449462b13f3909e"
   },
   "stub": {
     "versionCode": "7",
-    "link": "http://129.211.190.168/fileHost/download/MTMzOTA0ODIxNTU4ODE1OTQ4OQ=="
+    "link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0ODIxNTU4ODE1OTQ4OQ=="
   },
   "message":{
   	"Power By":"Mintimate"
