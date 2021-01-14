@@ -1,8 +1,8 @@
 {
     "app": {
-      "version": "8.0.4"
-      ,"versionCode": "4768"
-      ,"link": "https://host.mintimate.cn/fileHost/download/MTM0Mzg5ODc0MDIzODMxOTYxOA=="
+      "version": "8.0.5"
+      ,"versionCode": "4802"
+      ,"link": "https://host.mintimate.cn/fileHost/download/MTM0OTYwNTY3NzI3NzkyNTM3OA=="
       ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager.md"
       },
   "uninstaller": {

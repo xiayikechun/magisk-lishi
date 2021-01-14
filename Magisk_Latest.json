@@ -1,19 +1,19 @@
 {
   "app": {
-    "version": "8.0.4"
-    ,"versionCode": "4768"
-    ,"link": "https://host.mintimate.cn/fileHost/download/MTM0Mzg5ODc0MDIzODMxOTYxOA=="
+    "version": "8.0.5"
+    ,"versionCode": "4802"
+    ,"link": "https://host.mintimate.cn/fileHost/download/MTM0OTYwNTY3NzI3NzkyNTM3OA=="
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager.md"
     },
   "uninstaller": {
     "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwNDU3MDI0ODY1NDg1MA=="
   },
   "magisk": {
-    "version": "20.4"
-    ,"versionCode": "20400"
-    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0Njg4NDc2MDY2NjExMw=="
+    "version": "21.2"
+    ,"versionCode": "21200"
+    ,"link": "https://host.mintimate.cn/fileHost/download/MTM0Mzg5ODg3OTc2NjAzNjQ4MQ=="
 	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_stable.md"
-    ,"md5": "9503fc692e03d60cb8897ff2753c193f"
+    ,"md5": "165b48cbd6fb2507bf74c820cccb9781"
   },
   "stub": {
     "versionCode": "15",
