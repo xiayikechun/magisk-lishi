@@ -1,29 +1,22 @@
-## v8.0.4
+## v8.0.7
+- Fix sepolicy rule migration when upgrading
 
-- A lot of stability changes and minor bug fixes
-- Collect device properties, app logcat, and Magisk logs when saving logs in the logs menu
-
-## v8.0.3
-
-- Switch to the new Magisk Module Repo setup in preparation to allow 3rd party repos
-- Add tapjacking protection on Superuser request dialog
-- Stability changes and bug fixes
+## v8.0.6
+- Minor UI changes
+- Update internal scripts
 
 ## Mintimate's Blog (English)
-- 12.29 Update This.
+- 01.20 Update This.
 - Offical Web:https://www.mintimate.cn
 - Donate: https://www.mintimate.cn/about
 - Offical QQ Group:1051948568
 
 ## Mintimate's Blog (中文)
-- 最后更新时间:12.29
+- 最后更新时间:01.20
 - 如果有问题:https://www.mintimate.cn
 - 如果先捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568
 
 ## 统计
-- 11月份，本源累计被调取10986次
-- 11月份，服务器累计消耗流量45G
-
-## 黑名单
-- QQ用户：397105900 在QQ群内恶意对线，态度蛮狠；望大家小心。
+- 12月份，本源累计被调取9283次
+- 12月份，服务器累计消耗流量40G
