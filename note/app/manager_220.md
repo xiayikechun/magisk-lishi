@@ -35,6 +35,10 @@ Another major breakthrough in this release is that devices lower than Android 9.
 - 如果先捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568
 
+## 警告⚠️
+- 为节约服务器成本，拟定6月份关闭本更新源
+- 20.03--21.06 感谢1年的陪伴
+
 ## 统计
-- 01月份，本源累计被调取12291次
-- 01月份，服务器累计消耗流量140G
+- 04月份，本源被调取6255次
+- 04月份，服务器消耗流量32.11G
