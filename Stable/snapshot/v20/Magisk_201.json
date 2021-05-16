@@ -3,7 +3,7 @@
     "version": "7.4.0"
     ,"versionCode": "253"
     ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0MzcwMTMzNDI2MTc2Mg=="
-    ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.4.0/app/src/main/res/raw/changelog.md"
+    ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
   },
   "uninstaller": {
     "link": "https://github.com/topjohnwu/Magisk/releases/download/v19.3/Magisk-uninstaller-20190604.zip"
@@ -12,6 +12,7 @@
     "version": "20.1"
     ,"versionCode": "20100"
     ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0Njg5MTcwMjIzOTIzMw=="
+    ,"note":"https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     ,"md5": "994679ea19d7980f5fd28748c4e8abdd"
   },
   "stub": {

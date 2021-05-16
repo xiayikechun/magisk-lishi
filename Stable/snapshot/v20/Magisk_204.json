@@ -3,7 +3,7 @@
       "version": "7.5.1"
       ,"versionCode": "267"
       ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0MzczMzc0MzY0ODc3MA=="
-      ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.5.1/app/src/main/res/raw/changelog.md"
+      ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     },
   "uninstaller": {
     "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwNDU3MDI0ODY1NDg1MA=="

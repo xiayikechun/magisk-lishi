@@ -3,7 +3,7 @@
     "version": "8.0.5"
     ,"versionCode": "4802"
     ,"link": "https://host.mintimate.cn/fileHost/download/MTM0OTYwNTY3NzI3NzkyNTM3OA=="
-	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager.md"
+	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     },
   "uninstaller": {
     "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwNDU3MDI0ODY1NDg1MA=="
@@ -12,7 +12,7 @@
     "version": "21.2"
     ,"versionCode": "21200"
     ,"link": "https://host.mintimate.cn/fileHost/download/MTM0Mzg5ODg3OTc2NjAzNjQ4MQ=="
-	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_stable.md"
+	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     ,"md5": "165b48cbd6fb2507bf74c820cccb9781"
   },
   "stub": {
