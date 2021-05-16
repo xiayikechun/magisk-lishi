@@ -1,0 +1,27 @@
+{
+    "app": {
+      "version": "7.5.1"
+      ,"versionCode": "267"
+      ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0MzczMzc0MzY0ODc3MA=="
+      ,"note": "https://github.com/topjohnwu/Magisk/blob/manager-v7.5.1/app/src/main/res/raw/changelog.md"
+    },
+  "uninstaller": {
+    "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwNDU3MDI0ODY1NDg1MA=="
+  },
+  "magisk": {
+    "version": "20.4"
+    ,"versionCode": "20400"
+    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0Njg4NDc2MDY2NjExMw=="
+    ,"md5": "959e46971c2eb500b91a053b2f1c1a8c"
+  },
+  "stub": {
+    "versionCode": "7",
+    "link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0ODIxNTU4ODE1OTQ4OQ=="
+  },
+  "message":{
+  	"Power By":"Mintimate"
+  	,"My Bilibili":"Mintimate"
+  	,"My Coolapk":"Mintimate"
+  	,"Blog":"https://www.mintimate.cn"
+  }
+}

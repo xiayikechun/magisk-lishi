@@ -1,0 +1,13 @@
+{
+  "magisk": {
+    "version": "7717f0a6-alpha",
+    "versionCode": "23001",
+    "link": "https://host.mintimate.cn/fileHost/download/MTM5Mzc0ODMzNjUxODk2MzIwMg==",
+    "link64": "https://host.mintimate.cn/fileHost/download/MTM5Mzc0ODMzNjUxODk2MzIwMg==",
+    "note": "https://cdn.jsdelivr.net/gh/vvb2060/Magisk@879188db6c774719dc8acb68002849ecee1f6367/app/src/main/res/raw/changelog.md"
+  },
+  "stub": {
+    "versionCode": "21",
+    "link": "stub-release.apk"
+  }
+}

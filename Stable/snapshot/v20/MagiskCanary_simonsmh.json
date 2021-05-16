@@ -1,0 +1,24 @@
+{
+  "app": {
+    "version": "eec19ba9"
+    ,"versionCode": "293"
+    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0Mzc2NjIxNTk1MDMzNw=="
+	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/canary.md"
+    },
+  "uninstaller": {
+    "link": "http://101.133.237.130/Magisk/Magisk_Uninstaller/Magisk-uninstaller-20200323（v20.4）.zip"
+  },
+  "magisk": {
+    "version": "simonsmh"
+    ,"versionCode": "20420"
+    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0NjcyNzI3NzEzMzgyNg=="
+	,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/canary.md"
+    ,"md5": "bd3eaf1dd94840f1767786aec89863550eb84d67"
+  },
+  "message":{
+  	"Power By":"Mintimate"
+  	,"My Bilibili":"Mintimate"
+  	,"My Coolapk":"Mintimate"
+  	,"Blog":"https://www.mintimate.cn"
+  }
+}
