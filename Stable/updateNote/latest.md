@@ -1,9 +1,15 @@
-## v8.0.7
-- Fix sepolicy rule migration when upgrading
-
-## v8.0.6
-- Minor UI changes
-- Update internal scripts
+## v23.0
+- [App] Update snet extension. This fixes SafetyNet API errors.
+- [App] Fix a bug in the stub app that causes APK installation to fail
+- [App] Hide annoying errors in logs when hidden as stub
+- [App] Fix issues when patching ODIN tar files when the app is hidden
+- [General] Remove all pre Android 5.0 support
+- [General] Update BusyBox to use proper libc
+- [General] Fix C++ undefined behaviors
+- [General] Several `sepolicy.rule `copy/installation fixes
+- [MagiskPolicy] Remove unnecessary sepolicy rules
+- [MagiskHide] Update package and process name validation logic
+- [MagiskHide] Some changes that prevents zygote deadlock
 
 ## Mintimate's Blog (English)
 - 01.20 Update This.
@@ -12,15 +18,8 @@
 - Offical QQ Group:1051948568
 
 ## Mintimate's Blog (中文)
-- 最后更新时间:01.20
+- 最后更新时间:21.05.16
 - 如果有问题:https://www.mintimate.cn
-- 如果先捐赠:https://www.mintimate.cn/about
+- 如果想捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568
 
-## 警告⚠️
-- 为节约服务器成本，拟定6月份关闭本更新源
-- 20.03--21.06 感谢1年的陪伴
-
-## 统计
-- 04月份，本源被调取6255次
-- 04月份，服务器消耗流量32.11G

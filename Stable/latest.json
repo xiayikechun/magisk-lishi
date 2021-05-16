@@ -1,24 +1,14 @@
 {
-    "app": {
-      "version": "22.1",
-      "versionCode": "22100",
-      "link": "https://host.mintimate.cn/fileHost/download/MTM4MDkxMTQwNTAxMTY4MTI4Mg==",
-      "note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager_221.md"
-    },
-  "uninstaller": {
-    "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwMzc2MTkwOTgwNTA1OA=="
-  },
-  "magisk": {
-    "version": "22.1"
-    ,"versionCode": "22100"
-    ,"link": "https://host.mintimate.cn/fileHost/download/MTM4MDkxMTQ2ODExMDc5MDY1Nw=="
-    ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_221.md"
-    ,"md5": "b6c71c287647bda911f7027a087a7503"
-  },
-  "stub": {
-    "versionCode": "20",
-    "link": "https://host.mintimate.cn/fileHost/download/MTM4MDkxMjk2NTkwOTMzMTk3MA=="
-  },
+    "magisk": {
+        "version": "23.0",
+        "versionCode": "23000",
+        "link": "https://host.mintimate.cn/fileHost/download/MTM5Mzc1MzQ2NDE2MDQ2MDgwMQ==",
+        "note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
+      },
+      "stub": {
+        "versionCode": "21",
+        "link": "https://host.mintimate.cn/fileHost/download/MTM5Mzc1NDM3NjQ2MzUyMzg0Mg=="
+      }
   "message":{
   	"Power By":"Mintimate"
   	,"My Bilibili":"Mintimate"
