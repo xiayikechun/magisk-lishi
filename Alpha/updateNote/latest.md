@@ -1,40 +1,28 @@
 # alpha更新日志
 
-## Magisk (7717f0a6-alpha)
-- 基于 7717f0a6 ，相关修改参考上游更新日志
-- 正确处理来自magiskd的任何数据
-- 支持SharedUserId
-- 还原boot镜像后删除备份文件
-- 内置当前版本更新日志
-- 当无法下载stub时使用本地版本，现在Magisk可以完全离线使用
-- 支持bootimg v4格式
+## Magisk (0f71edee-alpha)
+- [App] 支持SharedUserId
+- [App] 还原boot镜像后删除备份文件
+- [App] 内置当前版本更新日志
+- [App] 当无法下载stub时使用本地版本
+- [App] 切换到Java 8的现代时间API
+- [General] 不再自动解锁设备块
+- [General] Zygisk关闭时使用MagiskHide实现隐藏
+- [App] 删除markdown渲染
+- [General] 不执行已忽略加载模块的脚本
+- [App] 修复无法从通知更新Magisk
+- [App] 修复第二次点按隐藏app按钮可能无反应
+- [App] 修复签名证书生效时间
+- [App] 开启网络请求缓存
+- [App] 重写安装应用功能
+- [App] 增强修复环境功能功能
+- [App] 修复排除列表部分进程可能不显示
+- [App] 支持设置KEEPVBMETAFLAG标志，以跳过处理boot镜像中的vbmeta
+- [Zygisk] 修复Xhook
 
-### 如何在Recovery使用APK文件？
-一般情况建议通过Magisk应用来安装和卸载Magisk。
-如果坚持使用自定义Recovery，将Magisk APK文件的`.apk`扩展名改为`.zip`即可刷入。
-要卸载Magisk，zip文件名需要包含`uninstall`，例如将apk文件重命名为`uninstall.zip`。文件名不包含`uninstall`则会进行安装操作。
-
-# 上游更新日志
-
-## 2021.5.12 Magisk v23.0
-
-This release is focused on fixing regressions and bugs.
-
-Note: Magisk v22 is the last major version to support Jellybean and Kitkat. Magisk v23 only supports Android 5.0 and higher.
-
-### Bug Fixes
-
-- [App] Update snet extension. This fixes SafetyNet API errors.
-- [App] Fix a bug in the stub app that causes APK installation to fail
-- [App] Hide annoying errors in logs when hidden as stub
-- [App] Fix issues when patching ODIN tar files when the app is hidden
-- [General] Remove all pre Android 5.0 support
-- [General] Update BusyBox to use proper libc
-- [General] Fix C++ undefined behaviors
-- [General] Several `sepolicy.rule` copy/installation fixes
-- [MagiskPolicy] Remove unnecessary sepolicy rules
-- [MagiskHide] Update package and process name validation logic
-- [MagiskHide] Some changes that prevents zygote deadlock
+### 如何安装？
+通过Magisk应用来安装和卸载Magisk，一般情况应直接在应用内完成，第一次安装等特殊情况应修补镜像后使用fastboot/odin工具刷入。
+通过自定义Recovery不是受支持的方式。
 
 ### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)
 ## Mintimate's Blog (English)
@@ -49,10 +37,4 @@ Note: Magisk v22 is the last major version to support Jellybean and Kitkat. Magi
 - 如果先捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568
 
-## 警告⚠️
-- 为节约服务器成本，拟定6月份关闭本更新源
-- 20.03--21.06 感谢1年的陪伴
 
-## 统计
-- 04月份，本源被调取6255次
-- 04月份，服务器消耗流量32.11G

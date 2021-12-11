@@ -1,13 +1,12 @@
 {
-  "magisk": {
-    "version": "7717f0a6-alpha",
-    "versionCode": "23001",
-    "link": "https://host.mintimate.cn/fileHost/download/MTM5Mzc0ODMzNjUxODk2MzIwMg==",
-    "link64": "https://host.mintimate.cn/fileHost/download/MTM5Mzc0ODMzNjUxODk2MzIwMg==",
-    "note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Alpha/updateNote/latest.md"
-  },
-  "stub": {
-    "versionCode": "21",
-    "link": "stub-release.apk"
-  }
+	"magisk": {
+		"version": "0f71edee-alpha",
+		"versionCode": "23015",
+		"link": "https://api.host.mintimate.cn/fileHost/public/download/1kYWvWkLu6r",
+		"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Alpha/updateNote/latest.md"
+	},
+	"stub": {
+		"versionCode": "22",
+		"link": "stub-release.apk"
+	}
 }
