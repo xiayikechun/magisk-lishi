@@ -2,21 +2,21 @@
     "app": {
       "version": "7.5.1"
       ,"versionCode": "267"
-      ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0MzczMzc0MzY0ODc3MA=="
+      ,"link": "https://api.host.mintimate.cn/fileHost/public/download/1aupjqKTqq2"
       ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     },
   "uninstaller": {
-    "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwNDU3MDI0ODY1NDg1MA=="
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1b0bXLTxbgg"
   },
   "magisk": {
     "version": "20.4"
     ,"versionCode": "20400"
-    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0Njg4NDc2MDY2NjExMw=="
+    ,"link": "https://api.host.mintimate.cn/fileHost/public/download/1auqdJo08UT"
     ,"md5": "959e46971c2eb500b91a053b2f1c1a8c"
   },
   "stub": {
     "versionCode": "7",
-    "link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0ODIxNTU4ODE1OTQ4OQ=="
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1aur0kSmfp3"
   },
   "message":{
   	"Power By":"Mintimate"

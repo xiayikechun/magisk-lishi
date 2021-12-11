@@ -2,22 +2,22 @@
     "app": {
       "version": "8.0.7",
       "versionCode": "4834",
-      "link": "https://host.mintimate.cn/fileHost/download/MTM1MTcxODA2NDExODQwNzE2OQ==",
+      "link": "https://api.host.mintimate.cn/fileHost/public/download/1bqskXLNfpB",
       "note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/app/manager_807.md"
     },
   "uninstaller": {
-    "link": "https://github.com/topjohnwu/Magisk/releases/download/v19.3/Magisk-uninstaller-20190604.zip"
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1b0bXLTxbgg"
   },
   "magisk": {
     "version": "19.3"
     ,"versionCode": "19300"
-    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0Njg5ODY2MDU4OTU2OQ=="
+    ,"link": "https://api.host.mintimate.cn/fileHost/public/download/1auqdYygnYH"
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/note/installer/installer_1930.md"
     ,"md5": "fd988114f753a4c530839a2b28f052c1"
   },
   "stub": {
     "versionCode": "15",
-    "link": "https://host.mintimate.cn/fileHost/download/MTM0Mzg5ODY2NDkxNzAwODM4NQ=="
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1bH4Ld3LMeH"
   },
   "message":{
   	"Power By":"Mintimate"

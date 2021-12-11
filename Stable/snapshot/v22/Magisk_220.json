@@ -2,22 +2,22 @@
     "app": {
       "version": "22.0",
       "versionCode": "22000",
-      "link": "https://host.mintimate.cn/fileHost/download/MTM2NDQ5MzE1OTIyODMwNTQxMA==",
+      "link": "https://api.host.mintimate.cn/fileHost/public/download/1cnONFZtDAA",
       "note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     },
   "uninstaller": {
-    "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwMzc2MTkwOTgwNTA1OA=="
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1b0blZov2iQ"
   },
   "magisk": {
     "version": "22.0"
     ,"versionCode": "22000"
-    ,"link": "https://host.mintimate.cn/fileHost/download/MTM2NDQ5MzE1OTIyODMwNTQxMA=="
+    ,"link": "https://api.host.mintimate.cn/fileHost/public/download/1cnObFBPTcH"
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     ,"md5": "e14132835b4cc0878639fcf645db479c"
   },
   "stub": {
     "versionCode": "18",
-    "link": "https://host.mintimate.cn/fileHost/download/MTM2NDQ5MzUyODQ3ODA1MjM1NA=="
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1cnOTkd9WFu"
   },
   "message":{
   	"Power By":"Mintimate"

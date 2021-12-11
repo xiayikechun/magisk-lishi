@@ -2,22 +2,22 @@
     "app": {
       "version": "8.0.3"
       ,"versionCode": "314"
-      ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0NDk3NDAxNjExODc4NQ=="
+      ,"link": "https://api.host.mintimate.cn/fileHost/public/download/1auq5g8sjth"
       ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
       },
   "uninstaller": {
-    "link": "https://host.mintimate.cn/fileHost/download/MTM0MDMwMzc2MTkwOTgwNTA1OA=="
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1b0blZov2iQ"
   },
   "magisk": {
     "version": "21.1"
     ,"versionCode": "21100"
-    ,"link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0Njc0MDI0MTcyNzQ5MA=="
+    ,"link": "https://api.host.mintimate.cn/fileHost/public/download/1auqam3ZOhW"
     ,"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
     ,"md5": "53f415c52c1e8b925ca1cf22814ef101"
   },
   "stub": {
     "versionCode": "14",
-    "link": "https://host.mintimate.cn/fileHost/download/MTMzOTA0ODI5MzkwODM5ODA4Mg=="
+    "link": "https://api.host.mintimate.cn/fileHost/public/download/1aur27xAPfm"
   },
   "message":{
   	"Power By":"Mintimate"
