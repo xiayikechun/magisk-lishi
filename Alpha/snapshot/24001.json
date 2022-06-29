@@ -1,0 +1,12 @@
+{
+	"magisk": {
+		"version": "54ee63a4-alpha",
+		"versionCode": "24001",
+		"link": "https://api.host.mintimate.cn/fileHost/public/download/1loKhTLDA3O",
+		"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Alpha/updateNote/latest.md"
+	},
+	"stub": {
+		"versionCode": "23",
+		"link": "https://api.host.mintimate.cn/fileHost/public/download/1loKJS1Kr69"
+	}
+}

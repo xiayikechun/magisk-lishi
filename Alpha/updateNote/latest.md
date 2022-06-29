@@ -1,14 +1,14 @@
 # alpha更新日志
-## Magisk (54ee63a4-alpha)
+
+## Magisk (b1faa5ee-alpha)
 - [App] 支持SharedUserId
 - [App] 还原boot镜像后删除备份文件
 - [App] 内置当前版本更新日志
 - [General] 不再自动解锁设备块
-- [General] Zygisk关闭时使用MagiskHide实现隐藏
 - [App] 适配 Android 12L
-- [MagiskInit] 重构两步启动的处理方法
-- [General] 更新到 NDK 23
 - [App] 添加崩溃统计
+- [App] 允许加载zygisk模块
+- [General] 签名验证
 
 ### 如何安装？
 通过Magisk应用来安装和卸载Magisk，一般情况应直接在应用内完成，第一次安装等特殊情况应修补镜像后使用fastboot/odin工具刷入。
@@ -16,62 +16,40 @@
 
 # 上游更新日志
 
-It has been a while since the last public release, long time no see! A personal update for those unaware: I am now working at Google on the Android Platform Security team. Without further ado, let's jump right into it!
+## 2022.6.19 Magisk v25.1
 
-### MagiskHide Removal
+> v25.1 fixes some minor bugs over v25.0. The following are the same as v25.0 release notes.
 
-I have lost interest in fighting this battle for quite a while; plus, the existing MagiskHide implementation is flawed in so many ways. Decoupling Magisk from root hiding is, in my opinion, beneficial to the community. Ever since my announcement on Twitter months ago, highly effective "root hiding" modules (much **MUCH** better than MagiskHide) has been flourishing, which again shows that people are way more capable than I am on this subject. So why not give those determined their time to shine, and let me focus on improving Magisk instead of drowning in the everlasting cat-and-mouse game 😉.
+Another major release! A lot of the changes aren't visible at the surface, but v25 is actually a really substantial upgrade!
 
-### Sunsetting Magisk-Modules-Repo
+### MagiskInit Rewrite
 
-Due to lack of time and maintenance, the centralized Magisk-Modules-Repo was frozen, and the functionality to download modules from the repo is removed in v24.0. As a supplement, module developers can now specify an `updateJson` URL in their modules. The Magisk app will use that to check, download, and install module updates.
+A significant portion of `magiskinit` (the critical software that runs before your device boots up) is completely rewritten from scratch. Ever since Android introduced [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html) in Android 8.0, Magisk has been constantly fighting against the increasingly complex partitioning and early mount setups of all kinds of devices, sometimes with weird OEM specific implementations. It got to a point that `magiskinit` had become so complicated that few people (including myself!) were aware of every detail, and maintaining this piece of software like this was clearly not sustainable. After many months of planning (yes, this whole re-architecture has been in my head for a long time) and some help from external contributors, a whole new `sepolicy` injection mechanism is introduced into Magisk, solving the "SELinux Problem" once and for all.
 
-### Introducing Zygisk
+Since this is a full paradigm shift on how Magisk hot-patch the device at boot, several behaviors that many developers implicitly relied on might not exist. For example, Magisk no longer patches fstabs in most scenarios, which means AVB will remain intact; some custom kernels rely on AVB being stripped out for them by Magisk.
 
-Zygisk is **Magisk in Zygote**, the next big thing for Magisk! When this feature is enabled, a part of Magisk will run in the `Zygote` daemon process, allowing module developers to run code directly in every Android apps' processes. If you've heard of [Riru](https://github.com/RikkaApps/Riru), then Zygisk is inspired by that project and is functionally similar, though the implementation is quite different internally. I cannot wait to see what module developers can achieve using Zygisk!
+### MagiskSU Security Enhancements
 
-### Documentation
+The superuser functionality of Magisk has not seen much changes ever since its introduction. v25 focuses on making root permission management more accurate and secure:
 
-For developers, details about `updateJson` and building Zygisk modules can all be found in the updated [documentation](https://topjohnwu.github.io/Magisk/guides.html#magisk-modules).
+- Add a whole new package tracking system to ensure malicious UID reuse attack cannot be performed
+- Properly support and implement the UX in the Magisk app for packages using `sharedUserId`
+- Enforce root manager APK signature verification to combat the rampant unofficial Magisk app "mods"
 
-### v24.0 Full Changelog
+Many might not realize, but using a trusted, unmodified Magisk app is really important. Magisk's root daemon treats the Magisk app differently and gives it blanket root access without any restrictions. A modded Magisk app can potentially backdoor your device.
 
-- [General] MagiskHide is removed from Magisk
-- [General] Support 64-bit only systems
-- [General] Support Android 12
-- [General] Update BusyBox to 1.34.1
-- [Zygisk] Introduce new feature: Zygisk
-- [Zygisk] Introduce DenyList feature to revert Magisk features in user selected processes
-- [MagiskBoot] Support patching 32-bit kernel zImages
-- [MagiskBoot] Support boot image header v4
-- [MagiskBoot] Support patching out `skip_initramfs` from dtb bootargs
-- [MagiskBoot] Add new env variable `PATCHVBMETAFLAG` to configure whether vbmeta flags should be patched
-- [MagiskInit] Support loading fstab from `/system/etc` (required for Pixel 6)
-- [MagiskInit] Support `/proc/bootconfig` for loading boot configurations
-- [MagiskInit] Better support for some Meizu devices
-- [MagiskInit] Better support for some OnePlus/Oppo/Realme devices
-- [MagiskInit] Support `init.real` on some Sony devices
-- [MagiskInit] Skip loading Magisk when detecting DSU
-- [MagiskPolicy] Load `*_compat_cil_file` from system_ext
-- [MagiskSU] Use isolated devpts if the kernel supports it
-- [MagiskSU] Fix root shell if isolated mount namespace is set
-- [resetprop] Deleted properties are now wiped from memory instead of just unlinking
-- [App] Build a single APK for all ABIs
-- [App] Switch to use standard bottom navigation bar
-- [App] Downloading modules from the centralized Magisk-Modules-Repo is removed
-- [App] Support user configuration of boot image vbmeta patching
-- [App] Restore the ability to install Magisk on the other slot on some A/B devices
-- [App] Allow modules to specify an update URL for in-app update + install
+And in case some of you are about to put on your tin foil hats, this is not designed to "vendor lock-in"; the goal is to make sure your root management app comes from the same developer of the underlying root implementation. Magisk's build system allows custom distributors to use its own signing keys, and in addition, I am also providing official debug builds which skips any signature verification for development.
 
 ### Full Changelog: [here](https://topjohnwu.github.io/Magisk/changes.html)
+
 ## Mintimate's Blog (English)
-- 01.27 Update This.
+- 06.29 Update This.
 - Offical Web:https://www.mintimate.cn
 - Donate: https://www.mintimate.cn/about
 - Offical QQ Group:1051948568
 
 ## Mintimate's Blog (中文)
-- 最后更新时间:01.27
+- 最后更新时间:06.29
 - 如果有问题:https://www.mintimate.cn
 - 如果先捐赠:https://www.mintimate.cn/about
 - 本自定义源反馈QQ群:1051948568

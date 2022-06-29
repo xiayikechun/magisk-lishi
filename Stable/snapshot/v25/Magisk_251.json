@@ -1,0 +1,18 @@
+{
+	"magisk": {
+		"version": "25.1",
+		"versionCode": "25100",
+		"link": "https://api.host.mintimate.cn/fileHost/public/download/1puEItN12rS",
+		"note": "https://gitee.com/mintimate/magick_custom_update_source/raw/master/Stable/updateNote/latest.md"
+	},
+	"stub": {
+		"versionCode": "32",
+		"link": "https://api.host.mintimate.cn/fileHost/public/download/1puEBz0cAj3"
+	},
+	"message": {
+		"Power By": "Mintimate",
+		"My Bilibili": "Mintimate",
+		"My Coolapk": "Mintimate",
+		"Blog": "https://www.mintimate.cn"
+	}
+}
